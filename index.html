@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e5f1df">
+  <meta name="description" content="A little invitation to spend a lovely day together.">
+  <title>A little invitation 🌻</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="scene" id="scene">
+    <div class="sun-glow" aria-hidden="true"></div>
+    <div class="leaf-field" id="leaf-field" aria-hidden="true"></div>
+    <div class="botanical botanical-left" aria-hidden="true">❧</div>
+    <div class="botanical botanical-right" aria-hidden="true">❧</div>
+
+    <section class="card invitation" id="invitation" aria-labelledby="question">
+      <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE INVITATION <span class="eyebrow-line"></span></div>
+      <div class="flower-mark" aria-hidden="true">🌼</div>
+      <h1 id="question">Will you join me <br class="mobile-break">today for dinner?</h1>
+      <p class="subtitle">I planned a date night for us.</p>
+      <div class="actions" id="actions">
+        <button class="button button-yes" id="yes-button" type="button">YES <span aria-hidden="true">🌻</span></button>
+        <button class="button button-no" id="no-button" type="button" aria-label="No, but this button is feeling shy">NO <span aria-hidden="true">🙈</span></button>
+      </div>
+      <p class="footnote">Made with a little extra sunshine <span aria-hidden="true">✳</span></p>
+    </section>
+
+    <section class="card celebration" id="celebration" aria-live="polite" aria-labelledby="celebration-title" hidden>
+      <div class="celebration-flower" aria-hidden="true">🌻</div>
+      <p class="eyebrow">TODAY JUST GOT BRIGHTER</p>
+      <h1 id="celebration-title">YAYYYYY!<br>YOU SAID YES!<br>See you there! <span aria-hidden="true">🌻💚</span></h1>
+      <p class="celebration-message">I can't wait to spend today<br class="mobile-break"> with you! <span aria-hidden="true">❤️</span></p>
+      <div class="tiny-sunshine" aria-hidden="true">✦ &nbsp; ☼ &nbsp; ✦</div>
+    </section>
+    <div class="rain" id="rain" aria-hidden="true"></div>
+  </main>
+</body>
+</html>
